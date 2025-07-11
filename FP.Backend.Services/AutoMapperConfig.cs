@@ -18,6 +18,22 @@ public class AutoMapperConfig : Profile
         AddMappingType(typeof(Role), typeof(CreateRoleDTO));
         AddMappingType(typeof(Role), typeof(UpdateRoleDTO));
 
+        AddMappingType(typeof(Level), typeof(LevelDTO));
+        AddMappingType(typeof(Level), typeof(CreateLevelDTO));
+        AddMappingType(typeof(Level), typeof(UpdateLevelDTO));
+
+        AddMappingType(typeof(Faculty), typeof(FacultyDTO));
+        AddMappingType(typeof(Faculty), typeof(CreateFacultyDTO));
+        AddMappingType(typeof(Faculty), typeof(UpdateFacultyDTO));
+
+        AddMappingType(typeof(Department), typeof(DepartmentDTO));
+        AddMappingType(typeof(Department), typeof(CreateDepartmentDTO));
+        AddMappingType(typeof(Department), typeof(UpdateDepartmentDTO));
+
+        AddMappingType(typeof(Expertise), typeof(ExpertiseDTO));
+        AddMappingType(typeof(Expertise), typeof(CreateExpertiseDTO));
+        AddMappingType(typeof(Expertise), typeof(UpdateExpertiseDTO));
+
 
         ConfigureStandardMappings();
         ConfigureCustomMappings();

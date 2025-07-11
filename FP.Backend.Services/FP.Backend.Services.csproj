@@ -17,9 +17,4 @@
     <ProjectReference Include="..\FP.Backend.Domain\FP.Backend.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Services\Implementations\" />
-    <Folder Include="Services\Interfaces\" />
-  </ItemGroup>
-
 </Project>

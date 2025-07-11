@@ -1,6 +1,6 @@
 ﻿namespace FP.Domain.DTOs;
 
-public class UpdateRoleDTO : CreateRoleDTO
+public class UpdateDepartmentDTO : CreateDepartmentDTO
 {
     public required long Id { get; set; }
 }

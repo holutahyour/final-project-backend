@@ -16,7 +16,7 @@
 
         public required string Phone { get; set; } = string.Empty;
 
-        public required List<Guid> Roles { get; set; } = [];
+        public required List<string> Roles { get; set; } = [];
 
         public required Guid FacultyId { get; set; }
 
