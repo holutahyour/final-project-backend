@@ -1,0 +1,32 @@
+[
+    {
+        "Id": "1b2c3d4e-f5a6-7890-abcd-1234567890ab",
+        "Name": "Super Administrator",
+        "Value": "super-admin",
+        "Description": "Has full access to all system features, including user management and system configuration."
+    },
+    {
+        "Id": "2c3d4e5f-a6b7-8901-bcde-2345678901bc",
+        "Name": "Administrator",
+        "Value": "Admin",
+        "Description": "Manages academic and administrative functions with elevated permissions."
+    },
+    {
+        "Id": "3d4e5f6a-b7c8-9012-cdef-3456789012cd",
+        "Name": "Board Member",
+        "Value": "board-members",
+        "Description": "Participates in governance and decision-making for institutional policies."
+    },
+    {
+        "Id": "4e5f6a7b-c8d9-0123-def0-4567890123de",
+        "Name": "Reviewer",
+        "Value": "reviewer",
+        "Description": "Reviews and evaluates academic submissions, such as theses or research papers."
+    },
+    {
+        "Id": "5f6a7b8c-d9e0-1234-ef01-5678901234ef",
+        "Name": "Student",
+        "Value": "student",
+        "Description": "Enrolled student with access to academic resources and personal records."
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "Id": "1a2b3c4d-e5f6-7890-abcd-6789012345ab",
+        "Code": "L100",
+        "Name": "100 Level",
+        "Description": "First-year undergraduate level, focusing on foundational courses and general education."
+    },
+    {
+        "Id": "2b3c4d5e-f6a7-8901-bcde-7890123456bc",
+        "Code": "L200",
+        "Name": "200 Level",
+        "Description": "Second-year undergraduate level, introducing major-specific coursework."
+    },
+    {
+        "Id": "3c4d5e6f-a7b8-9012-cdef-8901234567cd",
+        "Code": "L300",
+        "Name": "300 Level",
+        "Description": "Third-year undergraduate level, emphasizing advanced topics and practical applications."
+    },
+    {
+        "Id": "4d5e6f7a-b8c9-0123-def0-9012345678de",
+        "Code": "L400",
+        "Name": "400 Level",
+        "Description": "Final-year undergraduate level, focusing on capstone projects and specialization."
+    },
+    {
+        "Id": "5e6f7a8b-c9d0-1234-ef01-0123456789ef",
+        "Code": "PGM",
+        "Name": "Master's Level",
+        "Description": "Postgraduate level for Master's degree programs, focusing on advanced coursework and research."
+    },
+    {
+        "Id": "6f7a8b9c-d0e1-2345-f012-1234567890f0",
+        "Code": "PGD",
+        "Name": "Doctoral Level",
+        "Description": "Postgraduate level for Doctoral (PhD) programs, emphasizing original research and dissertation."
+    }
+]

@@ -1,0 +1,241 @@
+[
+    {
+        "Id": "6a7b8c9d-e0f1-2345-abcd-6789012345f0",
+        "UserName": "jsmith_admin",
+        "Email": "jsmith@university.edu",
+        "Title": "Dr",
+        "FirstName": "John",
+        "LastName": "Smith",
+        "Phone": "+12345678901",
+        "Roles": [
+            "1b2c3d4e-f5a6-7890-abcd-1234567890ab"
+        ],
+        "FacultyId": "a1b2c3d4-e5f6-7890-abcd-1234567890ab",
+        "DepartmentId": "d4e5f6a7-b8c9-0123-def0-4567890123de",
+        "ExpertiseId": "7a8b9c0d-e1f2-3456-7890-4567890123cd",
+        "MatriculationNumber": "",
+        "LevelId": null
+    },
+    {
+        "Id": "7b8c9d0e-f1a2-3456-bcde-7890123456a1",
+        "UserName": "amiller_board",
+        "Email": "amiller@university.edu",
+        "Title": "Prof",
+        "FirstName": "Alice",
+        "LastName": "Miller",
+        "Phone": "+12345678902",
+        "Roles": [
+            "3d4e5f6a-b7c8-9012-cdef-3456789012cd",
+            "4e5f6a7b-c8d9-0123-def0-4567890123de"
+        ],
+        "FacultyId": "b2c3d4e5-f6a7-8901-bcde-2345678901bc",
+        "DepartmentId": "e5f6a7b8-c9d0-1234-ef01-5678901234ef",
+        "ExpertiseId": "8b9c0d1e-f2a3-4567-8901-5678901234de",
+        "MatriculationNumber": "",
+        "LevelId": null
+    },
+    {
+        "Id": "8c9d0e1f-a2b3-4567-cdef-8901234567b2",
+        "UserName": "bthomas_student",
+        "Email": "bthomas@university.edu",
+        "Title": "",
+        "FirstName": "Bob",
+        "LastName": "Thomas",
+        "Phone": "+12345678903",
+        "Roles": [
+            "5f6a7b8c-d9e0-1234-ef01-5678901234ef"
+        ],
+        "FacultyId": "c3d4e5f6-a7b8-9012-cdef-3456789012cd",
+        "DepartmentId": "f6a7b8c9-d0e1-2345-f012-6789012345f0",
+        "ExpertiseId": null,
+        "MatriculationNumber": "STU123456",
+        "LevelId": "2b3c4d5e-f6a7-8901-bcde-7890123456bc"
+    },
+    {
+        "Id": "9d0e1f2a-b3c4-5678-def0-9012345678c3",
+        "UserName": "cjohnson_reviewer",
+        "Email": "cjohnson@university.edu",
+        "Title": "Dr",
+        "FirstName": "Carol",
+        "LastName": "Johnson",
+        "Phone": "+12345678904",
+        "Roles": [
+            "4e5f6a7b-c8d9-0123-def0-4567890123de"
+        ],
+        "FacultyId": "a1b2c3d4-e5f6-7890-abcd-1234567890ab",
+        "DepartmentId": "d4e5f6a7-b8c9-0123-def0-4567890123de",
+        "ExpertiseId": "0d1e2f3a-b4c5-6789-0123-7890123456f0",
+        "MatriculationNumber": "",
+        "LevelId": null
+    },
+    {
+        "Id": "0e1f2a3b-c4d5-6789-ef01-0123456789d4",
+        "UserName": "emartinez_student",
+        "Email": "emartinez@university.edu",
+        "Title": "",
+        "FirstName": "Emma",
+        "LastName": "Martinez",
+        "Phone": "+12345678905",
+        "Roles": [
+            "5f6a7b8c-d9e0-1234-ef01-5678901234ef"
+        ],
+        "FacultyId": "a1b2c3d4-e5f6-7890-abcd-1234567890ab",
+        "DepartmentId": "d4e5f6a7-b8c9-0123-def0-4567890123de",
+        "ExpertiseId": null,
+        "MatriculationNumber": "STU123457",
+        "LevelId": "1a2b3c4d-e5f6-7890-abcd-6789012345ab"
+    },
+    {
+        "Id": "1f2a3b4c-d5e6-7890-f012-1234567890e5",
+        "UserName": "dwilson_student",
+        "Email": "dwilson@university.edu",
+        "Title": "",
+        "FirstName": "David",
+        "LastName": "Wilson",
+        "Phone": "+12345678906",
+        "Roles": [
+            "5f6a7b8c-d9e0-1234-ef01-5678901234ef"
+        ],
+        "FacultyId": "c3d4e5f6-a7b8-9012-cdef-3456789012cd",
+        "DepartmentId": "f6a7b8c9-d0e1-2345-f012-6789012345f0",
+        "ExpertiseId": null,
+        "MatriculationNumber": "STU123458",
+        "LevelId": "3c4d5e6f-a7b8-9012-cdef-8901234567cd"
+    },
+    {
+        "Id": "2a3b4c5d-e6f7-8901-a123-2345678901f6",
+        "UserName": "slee_student",
+        "Email": "slee@university.edu",
+        "Title": "",
+        "FirstName": "Sophie",
+        "LastName": "Lee",
+        "Phone": "+12345678907",
+        "Roles": [
+            "5f6a7b8c-d9e0-1234-ef01-5678901234ef"
+        ],
+        "FacultyId": "b2c3d4e5-f6a7-8901-bcde-2345678901bc",
+        "DepartmentId": "e5f6a7b8-c9d0-1234-ef01-5678901234ef",
+        "ExpertiseId": null,
+        "MatriculationNumber": "STU123459",
+        "LevelId": "2b3c4d5e-f6a7-8901-bcde-7890123456bc"
+    },
+    {
+        "Id": "3b4c5d6e-f7a8-9012-b234-3456789012a7",
+        "UserName": "mjones_student",
+        "Email": "mjones@university.edu",
+        "Title": "",
+        "FirstName": "Michael",
+        "LastName": "Jones",
+        "Phone": "+12345678908",
+        "Roles": [
+            "5f6a7b8c-d9e0-1234-ef01-5678901234ef"
+        ],
+        "FacultyId": "a1b2c3d4-e5f6-7890-abcd-1234567890ab",
+        "DepartmentId": "d4e5f6a7-b8c9-0123-def0-4567890123de",
+        "ExpertiseId": null,
+        "MatriculationNumber": "STU123460",
+        "LevelId": "4d5e6f7a-b8c9-0123-def0-9012345678de"
+    },
+    {
+        "Id": "4c5d6e7f-a8b9-0123-c345-4567890123b8",
+        "UserName": "lchen_student",
+        "Email": "lchen@university.edu",
+        "Title": "",
+        "FirstName": "Li",
+        "LastName": "Chen",
+        "Phone": "+12345678909",
+        "Roles": [
+            "5f6a7b8c-d9e0-1234-ef01-5678901234ef"
+        ],
+        "FacultyId": "c3d4e5f6-a7b8-9012-cdef-3456789012cd",
+        "DepartmentId": "f6a7b8c9-d0e1-2345-f012-6789012345f0",
+        "ExpertiseId": null,
+        "MatriculationNumber": "STU123461",
+        "LevelId": "5e6f7a8b-c9d0-1234-ef01-0123456789ef"
+    },
+    {
+        "Id": "5d6e7f8a-b9c0-1234-d456-5678901234c9",
+        "UserName": "rpatel_student",
+        "Email": "rpatel@university.edu",
+        "Title": "",
+        "FirstName": "Rahul",
+        "LastName": "Patel",
+        "Phone": "+12345678910",
+        "Roles": [
+            "5f6a7b8c-d9e0-1234-ef01-5678901234ef"
+        ],
+        "FacultyId": "a1b2c3d4-e5f6-7890-abcd-1234567890ab",
+        "DepartmentId": "d4e5f6a7-b8c9-0123-def0-4567890123de",
+        "ExpertiseId": null,
+        "MatriculationNumber": "STU123462",
+        "LevelId": "1a2b3c4d-e5f6-7890-abcd-6789012345ab"
+    },
+    {
+        "Id": "6e7f8a9b-c0d1-2345-e567-6789012345d0",
+        "UserName": "kgarcia_student",
+        "Email": "kgarcia@university.edu",
+        "Title": "",
+        "FirstName": "Karla",
+        "LastName": "Garcia",
+        "Phone": "+12345678911",
+        "Roles": [
+            "5f6a7b8c-d9e0-1234-ef01-5678901234ef"
+        ],
+        "FacultyId": "b2c3d4e5-f6a7-8901-bcde-2345678901bc",
+        "DepartmentId": "e5f6a7b8-c9d0-1234-ef01-5678901234ef",
+        "ExpertiseId": null,
+        "MatriculationNumber": "STU123463",
+        "LevelId": "3c4d5e6f-a7b8-9012-cdef-8901234567cd"
+    },
+    {
+        "Id": "7f8a9b0c-d1e2-3456-f678-7890123456e1",
+        "UserName": "tnguyen_student",
+        "Email": "tnguyen@university.edu",
+        "Title": "",
+        "FirstName": "Tuan",
+        "LastName": "Nguyen",
+        "Phone": "+12345678912",
+        "Roles": [
+            "5f6a7b8c-d9e0-1234-ef01-5678901234ef"
+        ],
+        "FacultyId": "c3d4e5f6-a7b8-9012-cdef-3456789012cd",
+        "DepartmentId": "f6a7b8c9-d0e1-2345-f012-6789012345f0",
+        "ExpertiseId": null,
+        "MatriculationNumber": "STU123464",
+        "LevelId": "6f7a8b9c-d0e1-2345-f012-1234567890f0"
+    },
+    {
+        "Id": "8a9b0c1d-e2f3-4567-a789-8901234567f2",
+        "UserName": "okim_student",
+        "Email": "okim@university.edu",
+        "Title": "",
+        "FirstName": "Olivia",
+        "LastName": "Kim",
+        "Phone": "+12345678913",
+        "Roles": [
+            "5f6a7b8c-d9e0-1234-ef01-5678901234ef"
+        ],
+        "FacultyId": "a1b2c3d4-e5f6-7890-abcd-1234567890ab",
+        "DepartmentId": "d4e5f6a7-b8c9-0123-def0-4567890123de",
+        "ExpertiseId": null,
+        "MatriculationNumber": "STU123465",
+        "LevelId": "2b3c4d5e-f6a7-8901-bcde-7890123456bc"
+    },
+    {
+        "Id": "9b0c1d2e-f3a4-5678-b890-9012345678a3",
+        "UserName": "abrown_student",
+        "Email": "abrown@university.edu",
+        "Title": "",
+        "FirstName": "Amara",
+        "LastName": "Brown",
+        "Phone": "+12345678914",
+        "Roles": [
+            "5f6a7b8c-d9e0-1234-ef01-5678901234ef"
+        ],
+        "FacultyId": "b2c3d4e5-f6a7-8901-bcde-2345678901bc",
+        "DepartmentId": "e5f6a7b8-c9d0-1234-ef01-5678901234ef",
+        "ExpertiseId": null,
+        "MatriculationNumber": "STU123466",
+        "LevelId": "4d5e6f7a-b8c9-0123-def0-9012345678de"
+    }
+]

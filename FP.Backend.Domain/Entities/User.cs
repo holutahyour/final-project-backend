@@ -14,14 +14,16 @@ public class User : BaseEntity<Guid>
 
     public required string Phone { get; set; } = string.Empty;
 
-    public required List<Role> Roles { get; set; } = [];
+    public required List<Guid> Roles { get; set; } = [];
 
     public required Guid FacultyId { get; set; }
 
     public required Guid DepartmentId { get; set; }
 
+    public Guid? ExpertiseId { get; set; }
+
     public string MatriculationNumber { get; set; } = string.Empty;
 
-    public Guid LevelId { get; set; }
+    public Guid? LevelId { get; set; }
 
 }

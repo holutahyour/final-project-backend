@@ -1,0 +1,26 @@
+[
+    {
+        "Id": "7a8b9c0d-e1f2-3456-7890-4567890123cd",
+        "Code": "AI",
+        "Name": "Artificial Intelligence",
+        "Description": "Expertise in machine learning, neural networks, and AI-driven solutions for real-world applications."
+    },
+    {
+        "Id": "8b9c0d1e-f2a3-4567-8901-5678901234de",
+        "Code": "LIT",
+        "Name": "Comparative Literature",
+        "Description": "Specialization in analyzing and comparing literary works across cultures and historical periods."
+    },
+    {
+        "Id": "9c0d1e2f-a3b4-5678-9012-6789012345ef",
+        "Code": "PHYS",
+        "Name": "Quantum Physics",
+        "Description": "Focus on quantum mechanics, quantum computing, and theoretical physics research."
+    },
+    {
+        "Id": "0d1e2f3a-b4c5-6789-0123-7890123456f0",
+        "Code": "CENG",
+        "Name": "Civil Engineering",
+        "Description": "Expertise in structural design, urban planning, and sustainable infrastructure development."
+    }
+]

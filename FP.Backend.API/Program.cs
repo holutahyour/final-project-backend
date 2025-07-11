@@ -73,6 +73,18 @@ app.UseSwaggerUI();
 //    app.UseSwaggerUI();
 //}
 
+//if (app.Environment.IsDevelopment())
+//{
+//    using (var scope = app.Services.CreateScope())
+//    {
+//        var services = scope.ServiceProvider;
+//        var context = services.GetRequiredService<ApplicationDbContext>();
+
+//        await DatabaseSeeder.SeedDatabaseAsync(context);
+//    }
+
+//}
+
 app.UseCors("cors");
 
 app.UseHttpsRedirection();
