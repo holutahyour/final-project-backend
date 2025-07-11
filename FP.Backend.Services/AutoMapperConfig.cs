@@ -9,10 +9,14 @@ public class AutoMapperConfig : Profile
         //AddMappingType(typeof(User), typeof(UpdateUserDTO));
         //AddMappingType(typeof(User), typeof(PublicUserDTO));
         //AddMappingType(typeof(User), typeof(RelationshipUserDTO));
-        
-        //AddMappingType(typeof(User), typeof(UserDTO));
-        //AddMappingType(typeof(User), typeof(CreateUserDTO));
-        //AddMappingType(typeof(User), typeof(UpdateUserDTO));
+
+        AddMappingType(typeof(User), typeof(UserDTO));
+        AddMappingType(typeof(User), typeof(CreateUserDTO));
+        AddMappingType(typeof(User), typeof(UpdateUserDTO));
+
+        AddMappingType(typeof(Role), typeof(RoleDTO));
+        AddMappingType(typeof(Role), typeof(CreateRoleDTO));
+        AddMappingType(typeof(Role), typeof(UpdateRoleDTO));
 
 
         ConfigureStandardMappings();

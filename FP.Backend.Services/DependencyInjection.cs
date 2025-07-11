@@ -1,5 +1,4 @@
 ﻿using FP.Backend.Base.Services;
-using FP.Backend.Domain.Entities;
 using Google.Apis.Auth.OAuth2;
 
 namespace FP.Backend.Services;
@@ -26,7 +25,7 @@ public static class DependencyInjection
             .AddSingleton(mapper)
             .AddMongoService<User>("users")
             .AddMongoService<Role>("roles")
-            .AddMongoService<UserRole>("user-roles")
+            //.AddMongoService<UserRole>("user-roles")
             .AddMongoService<Submission>("submissions")
             .AddMongoService<Revision>("revisions")
             .AddMongoService<Feedback>("feedbacks");
