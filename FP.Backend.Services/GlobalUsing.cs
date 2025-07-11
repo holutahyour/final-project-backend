@@ -1,0 +1,12 @@
+﻿global using AutoMapper;
+global using FirebaseAdmin;
+global using FirebaseAdmin.Auth;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.Extensions.DependencyInjection;
+global using FP.Backend.Base.Domain.Common;
+global using FP.Backend.Base.Domain.Entities;
+global using FP.Backend.Base.Domain.Utilities;
+global using FP.Backend.Base.Repositories.Interfaces;
+global using FP.Backend.Base.Services.Implementation;
+global using FP.Backend.Base.Services.Interface;
+global using System.Text.Json;

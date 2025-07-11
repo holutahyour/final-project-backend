@@ -1,0 +1,18 @@
+// Mongo DB Docker Container Creation Command
+
+docker run -d --rm --name prepdom-mongo-db -p 27017:27017 -v mongodbdata:/data/db mongo
+
+mongodump --uri="mongodb://localhost:27017" --db=FP --out=C:\Backups\2025-04-17
+
+mongodump --uri="mongodb://username:password@localhost:27017" --db=FP --out=C:\Backups\2025-04-17
+
+mongorestore --uri="mongodb://localhost:27017" --db=FP C:\Backups\2025-04-17\FP
+
+docker run -d --rm --name prepdom-mongo-db -v mongodbdata:/data/db --network="host" -e CONNECTION_STRING="mongodb://localhost:27017" mongo
+
+docker run --network="host" -e CONNECTION_STRING="mongodb://localhost:27017" your-container-image
+
+
+
+
+
