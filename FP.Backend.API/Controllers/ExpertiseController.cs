@@ -5,7 +5,7 @@ namespace FP.Backend.API.Controllers
 {
     [Route("api/expertises")]
     [ApiController]
-    public class ExpertiseController : MongoBaseController<Expertise, Expertise>
+    public class ExpertiseController : MongoBaseController<Expertise, ExpertiseDTO>
     {
         public ExpertiseController(IMongoBaseService<Expertise> service) : base(service)
         {

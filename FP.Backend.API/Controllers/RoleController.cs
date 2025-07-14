@@ -5,7 +5,7 @@ namespace FP.Backend.API.Controllers
 {
     [Route("api/roles")]
     [ApiController]
-    public class RoleController : MongoBaseController<Role, Role>
+    public class RoleController : MongoBaseController<Role, RoleDTO>
     {
         public RoleController(IMongoBaseService<Role> service) : base(service)
         {

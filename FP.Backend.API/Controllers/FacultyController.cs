@@ -5,7 +5,7 @@ namespace FP.Backend.API.Controllers
 {
     [Route("api/faculties")]
     [ApiController]
-    public class FacultyController : MongoBaseController<Faculty, Faculty>
+    public class FacultyController : MongoBaseController<Faculty, FacultyDTO>
     {
         public FacultyController(IMongoBaseService<Faculty> service) : base(service)
         {

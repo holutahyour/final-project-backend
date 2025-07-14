@@ -16,9 +16,11 @@ public static class DependencyInjection
 
         // Create an instance of AutoMapperConfig
         var mapperConfig = new AutoMapperConfig();
+
+        // Initialize AutoMapper with the MapperConfig Profile
         var mapperConfiguration = new MapperConfiguration(cfg =>
         {
-            cfg.AddProfile(mapperConfig);
+            cfg.AddProfile(mapperConfig); // Register the profile
         });
 
         IMapper mapper = mapperConfiguration.CreateMapper();

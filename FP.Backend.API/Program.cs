@@ -1,5 +1,4 @@
 using FP.Backend.Base.Services;
-using FP.Backend.Data;
 using FP.Backend.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.OpenApi.Models;
@@ -7,6 +6,16 @@ using Microsoft.OpenApi.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services
+    .AddBaseServices()
+    .AddServices()
+    .AddAuthentication()
+    .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, options =>
+    {
+        options.Authority = $"https://securetoken.google.com/{builder.Configuration["Firebase:ProjectId"]}";
+        options.Audience = builder.Configuration["Firebase:ProjectId"];
+        options.TokenValidationParameters.ValidIssuer = $"https://securetoken.google.com/{builder.Configuration["Firebase:ProjectId"]}";
+    });
 
 builder.Services.AddCors(options =>
 {
@@ -49,41 +58,10 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
-builder.Services
-    .AddBaseServices()
-    .AddRepositories()
-    .AddServices()
-    .AddAuthentication()
-    .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, options =>
-     {
-         options.Authority = $"https://securetoken.google.com/{builder.Configuration["Firebase:ProjectId"]}";
-         options.Audience = builder.Configuration["Firebase:ProjectId"];
-         options.TokenValidationParameters.ValidIssuer = $"https://securetoken.google.com/{builder.Configuration["Firebase:ProjectId"]}";
-     });
-
 var app = builder.Build();
 
 app.UseSwagger();
 app.UseSwaggerUI();
-
-// Configure the HTTP request pipeline.
-//if (app.Environment.IsDevelopment())
-//{
-//    app.UseSwagger();
-//    app.UseSwaggerUI();
-//}
-
-//if (app.Environment.IsDevelopment())
-//{
-//    using (var scope = app.Services.CreateScope())
-//    {
-//        var services = scope.ServiceProvider;
-//        var context = services.GetRequiredService<ApplicationDbContext>();
-
-//        await DatabaseSeeder.SeedDatabaseAsync(context);
-//    }
-
-//}
 
 app.UseCors("cors");
 

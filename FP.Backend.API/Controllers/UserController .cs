@@ -6,7 +6,7 @@ namespace FP.Backend.API.Controllers
 {
     [Route("api/users")]
     [ApiController]
-    public class UserController : MongoBaseController<User, User>
+    public class UserController : MongoBaseController<User, UserDTO>
     {
         private readonly IUserService _service;
 

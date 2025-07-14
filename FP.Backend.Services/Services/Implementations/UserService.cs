@@ -104,10 +104,10 @@ public class UserService : MongoBaseService<User>, IUserService
 
         foreach (var user in userDTOs)
         {
-            var faculty = (faculties?.FirstOrDefault(x => x.Id == user.FacultyId))?.Name;
-            var department = (departments?.FirstOrDefault(x => x.Id == user.DepartmentId))?.Name;
-            var level = (levels?.FirstOrDefault(x => x.Id == user.LevelId))?.Name;
-            var expertise = (expertises?.FirstOrDefault(x => x.Id == user.ExpertiseId))?.Name;
+            user.Faculty = (faculties?.FirstOrDefault(x => x.Id == user.FacultyId))?.Name;
+            user.Department = (departments?.FirstOrDefault(x => x.Id == user.DepartmentId))?.Name;
+            user.Level = (levels?.FirstOrDefault(x => x.Id == user.LevelId))?.Name;
+            user.Expertise = (expertises?.FirstOrDefault(x => x.Id == user.ExpertiseId))?.Name;
         }
 
         return userDTOs;

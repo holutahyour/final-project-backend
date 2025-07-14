@@ -5,7 +5,7 @@ namespace FP.Backend.API.Controllers
 {
     [Route("api/levels")]
     [ApiController]
-    public class LevelController : MongoBaseController<Level, Level>
+    public class LevelController : MongoBaseController<Level, LevelDTO>
     {
         public LevelController(IMongoBaseService<Level> service) : base(service)
         {

@@ -2,6 +2,6 @@
 {
     public class UpdateUserDTO : CreateUserDTO
     {
-        public required long Id { get; set; }
+        public required Guid Id { get; set; }
     }
 }

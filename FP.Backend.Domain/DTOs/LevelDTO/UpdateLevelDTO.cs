@@ -2,5 +2,5 @@
 
 public class UpdateLevelDTO : CreateLevelDTO
 {
-    public required long Id { get; set; }
+    public required Guid Id { get; set; }
 }

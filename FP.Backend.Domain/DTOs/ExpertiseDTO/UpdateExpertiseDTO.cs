@@ -2,5 +2,5 @@
 
 public class UpdateExpertiseDTO : CreateExpertiseDTO
 {
-    public required long Id { get; set; }
+    public required Guid Id { get; set; }
 }

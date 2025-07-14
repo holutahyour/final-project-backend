@@ -5,7 +5,7 @@ namespace FP.Backend.API.Controllers
 {
     [Route("api/departments")]
     [ApiController]
-    public class DepartmentController : MongoBaseController<Department, Department>
+    public class DepartmentController : MongoBaseController<Department, DepartmentDTO>
     {
         public DepartmentController(IMongoBaseService<Department> service) : base(service)
         {
